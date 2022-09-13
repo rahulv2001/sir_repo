@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.box {
+  margin: 1rem auto;
+  border: 1px solid black;
+  background-color: rgba(221, 213, 213, 0.542);
+  text-align: center;
+  width: 420px;
+  padding: 0.2rem;
+}
+
+.box1 .title {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.box1 .title i {
+  margin-right: 1rem;
+  font-size: 20px;
+  margin-top: 0.9rem;
+  cursor: pointer;
+  color: white;
+}
+
+.box1 {
+  margin: auto;
+  width: 100%;
+  height: 50px;
+  /* background-color: rgb(122, 140, 222); */
+  background-image: linear-gradient(
+    to right,
+    rgb(191, 56, 221),
+    rgb(109, 147, 214)
+  );
+  border-radius: 5px;
+}
+
+.title span {
+  color: white;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: "Roboto", sans-serif;
+}
+
+.box2 {
+  margin: 1rem 0;
+  padding: 2rem 1.5rem;
+  height: 6rem;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* justify-content: flex-start; */
+  flex-direction: row;
+}
+
+.box2 .add .justadd {
+  border: 2px solid gray;
+}
+.box2 .add .adding {
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  text-align: center;
+  /* padding-bottom: 3rem; */
+}
+
+.box2 .add span {
+  color: gray;
+  font-size: 53px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.box2 .add .adding img {
+  height: 66px;
+  width: 66px;
+  /* border: 2px solid gray; */
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.box2 .add p {
+  margin-top: 0.8rem;
+  /* margin-bottom: 2rem; */
+  font-family: "Roboto", sans-serif;
+  color: gray;
+}
+
+.box3 {
+  margin: 1rem 0;
+  padding: 2rem 1.5rem;
+  height: 38rem;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  /* justify-content: flex-start; */
+  flex-direction: column;
+}
+
+.box3 .down {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  flex-direction: row;
+  padding: 1rem 0;
+  position: relative;
+}
+
+.box3 hr {
+  border-width: 0;
+  color: rgba(221, 213, 213, 0.542);
+  border: 0.6px solid rgba(221, 213, 213, 0.542);
+  background-color: rgba(221, 213, 213, 0.542);
+  margin: 1rem 0;
+}
+
+.box3 .down .content {
+  position: relative;
+}
+
+.box3 .down .content .messCount {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  left: 283px;
+  top: 30px;
+  background-color: rgba(0, 0, 255, 0.542);
+  /* font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: white; */
+  border-radius: 50%;
+}
+
+.box3 .down .content span {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: white;
+  padding-top: 2px;
+}
+
+.box3 .down .content h3 {
+  margin-left: -95px;
+  font-family: "Roboto", sans-serif;
+  color: gray;
+}
+
+.box3 .down .content h4 {
+  position: absolute;
+  top: 0px;
+  right: -63px;
+  font-family: "Roboto", sans-serif;
+  color: gray;
+}
+
+.box3 .down .content p {
+  font-size: 12px;
+  margin-left: 16px;
+  font-family: "Roboto", sans-serif;
+  color: gray;
+}
+
+.box3 .down .images img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
